@@ -8,7 +8,7 @@
   <a href="https://github.com/seredartem?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore_my_work-142330?style=flat-square&amp;logo=github&amp;logoColor=e2e8f0" alt="Explore my repositories" /></a>
 </p>
 
-<p align="center"><strong>Open to junior Python backend roles and internships</strong></p>
+<p align="center"><strong>Open to Python backend roles and internships</strong></p>
 
 ## About me
 
@@ -92,7 +92,7 @@ Additional Python training: **Genius Space** online courses and private Python l
 ---
 
 <p align="center">
-  Have a junior backend opportunity or a project to discuss?<br />
+  Have a backend opportunity or a project to discuss?<br />
   <a href="mailto:seredartem44@gmail.com"><strong>seredartem44@gmail.com</strong></a> · <a href="https://www.linkedin.com/in/artem-sereda-911580318/">LinkedIn</a>
 </p>
 
