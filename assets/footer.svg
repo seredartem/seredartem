@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Let's build something useful.</title>
+  <desc id="description">Python, APIs and automation.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111C2E"/>
+    </linearGradient>
+    <linearGradient id="line" x1="56" y1="0" x2="1144" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="110" rx="16" fill="url(#background)"/>
+  <path d="M56 1H1144" stroke="url(#line)" stroke-width="2"/>
+  <circle cx="60" cy="56" r="4" fill="#5EEAD4"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="78" y="64" fill="#E2E8F0" font-size="25" font-weight="500">Let's build something useful.</text>
+    <text x="1144" y="61" fill="#8DA5BB" font-size="14" letter-spacing="0.4" text-anchor="end">Python <tspan fill="#496579"> / </tspan> APIs <tspan fill="#496579"> / </tspan> Automation</text>
+  </g>
+</svg>
