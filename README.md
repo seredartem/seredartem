@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Artem Sereda — Python Backend Developer based in Warsaw, Poland. REST APIs, asynchronous Python and data automation." width="100%" />
+  <img src="assets/header.svg" alt="Artem Sereda — Python Backend Developer. FastAPI, PostgreSQL, React and TypeScript. Business workflows, data integrity and full-stack development." width="100%" />
 </p>
 
 <p align="center">
@@ -12,18 +12,23 @@
 
 ## About me
 
-I build Python backends and tools that connect APIs, process data, and automate repetitive tasks. My featured project is **SPLASH**, a full-stack studio website and booking platform with a React frontend and a FastAPI backend. My other projects cover Flask APIs, asynchronous data collection, and web scraping.
+I build Python backends for applications with real business rules: booking capacity, membership balances, access permissions, and auditable state changes. My featured project, **SPLASH**, connects a React and TypeScript interface to an asynchronous FastAPI backend and PostgreSQL database.
 
-Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akademia Nauk**. I enjoy working through backend problems: designing endpoints, handling API errors, and turning external data into useful results.
+My work spans API design, relational data modelling, transactional workflows, database migrations, and regression tests, alongside the client and owner interfaces that use them. I also build API integrations, asynchronous data-collection tools, and web scrapers.
+
+Based in **Warsaw, Poland** · Studying **Computer Networks at Społeczna Akademia Nauk**.
 
 ## Technical toolkit
 
-| Area | Technologies |
+| Area | Technologies & practices |
 | :--- | :--- |
-| **Backend** | `Python` · `Flask` · `FastAPI` · `REST APIs` · `JWT authentication` |
-| **Frontend** | `React` · `TypeScript` · `Vite` · `CSS` |
+| **Backend & API design** | `Python` · `FastAPI` · `Flask` · `Pydantic` · `REST / OpenAPI` · service layers |
+| **Databases** | `PostgreSQL` · `SQLAlchemy 2 async` · `Alembic` · `SQL` · `MySQL` |
+| **Data consistency** | transactions · row-level locking · idempotent operations · entry ledgers |
+| **Authentication & access** | `JWT` · `bcrypt` · role-based permissions · server-side validation |
+| **Frontend integration** | `React` · `TypeScript` · `Vite` · typed API clients · responsive PL/UA interfaces |
+| **Testing & quality** | `Pytest` · `Node.js test runner` · TypeScript checks · `Ruff` |
 | **Async & integrations** | `asyncio` · `aiohttp` · `httpx` · `Requests` |
-| **Data** | `SQL` · `PostgreSQL` · `MySQL` · `SQLAlchemy` · `JSON` · `CSV` |
 | **Scraping & automation** | `BeautifulSoup` · `Playwright` |
 | **Development** | `Git` · `GitHub` · `Postman` · `OOP` |
 
@@ -34,14 +39,16 @@ Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akad
     <td colspan="2" valign="top">
       <h3>01 / SPLASH — Dance &amp; Fitness Platform</h3>
       <p><strong>Full-stack website · React frontend + FastAPI backend</strong></p>
-      <p>A studio website and booking platform connecting a responsive client interface with an asynchronous Python backend and an owner CRM.</p>
+      <p>A dance and fitness studio platform covering the client booking journey and daily owner operations, with business rules enforced by an asynchronous Python service layer.</p>
       <ul>
-        <li>Responsive Polish/Ukrainian website with class directions, schedules, and live availability</li>
-        <li>Client accounts, JWT authentication, class bookings, and waiting lists</li>
-        <li>Membership management, attendance tracking, and booking history</li>
-        <li>Role-based owner CRM for client management and studio analytics</li>
+        <li>Transactional booking and membership workflows with row locks, idempotent retries, and protection against duplicate entry deductions</li>
+        <li>JWT authentication, role-based API permissions, Pydantic validation, and Alembic database migrations</li>
+        <li>Owner CRM for client records, attendance, membership ledgers, booking history, and operational analytics</li>
+        <li>Typed React API integration with authenticated requests, error handling, and expired-session recovery</li>
+        <li>Responsive Polish/Ukrainian UI with Warsaw-local booking windows and precise monetary formatting</li>
+        <li>Pytest regression tests for permissions, cancellation cutoffs, retries, and stale updates; frontend regression checks for date and account-access rules</li>
       </ul>
-      <p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>SQLAlchemy</code> <code>Alembic</code> <code>React</code> <code>TypeScript</code> <code>Vite</code></p>
+      <p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>SQLAlchemy</code> <code>Alembic</code> <code>Pydantic</code> <code>Pytest</code> <code>React</code> <code>TypeScript</code> <code>Vite</code></p>
       <p><sub>Source code is private.</sub></p>
     </td>
   </tr>

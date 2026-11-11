@@ -1,48 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none" role="img" aria-labelledby="title description">
   <title id="title">Artem Sereda — Python Backend Developer</title>
-  <desc id="description">REST APIs, asynchronous Python and data automation. Based in Warsaw, Poland. A small diagram connects a client to an API and a database.</desc>
+  <desc id="description">Backend engineering and full-stack development. FastAPI, PostgreSQL, React and TypeScript. SPLASH combines client and owner interfaces, booking and membership services, authentication, database transactions and migrations. Based in Warsaw, Poland.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#111C2E"/>
+      <stop offset="1" stop-color="#142137"/>
     </linearGradient>
     <linearGradient id="accent" x1="56" y1="0" x2="1144" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#5EEAD4"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0.25"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#90B2C8" stroke-opacity="0.045"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#90B2C8" stroke-opacity="0.045"/>
     </pattern>
-    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M1 1L7 4L1 7" stroke="#5EEAD4" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <marker id="arrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M1 1L6 4L1 7" stroke="#5EEAD4" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
     </marker>
   </defs>
-  <rect width="1200" height="320" rx="20" fill="url(#background)"/>
-  <rect x="744" width="456" height="320" rx="20" fill="url(#grid)"/>
+  <rect width="1200" height="400" rx="20" fill="url(#background)"/>
+  <rect x="696" width="504" height="400" rx="20" fill="url(#grid)"/>
   <path d="M56 1H1144" stroke="url(#accent)" stroke-width="2"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <circle cx="60" cy="62" r="4" fill="#5EEAD4"/>
-    <text x="76" y="67" fill="#5EEAD4" font-size="12" font-weight="600" letter-spacing="2.4">PYTHON / BACKEND</text>
-    <text x="54" y="143" fill="#F1F5F9" font-size="66" font-weight="700" letter-spacing="1">ARTEM SEREDA</text>
-    <text x="56" y="189" fill="#B9CADB" font-size="28" font-weight="400">Python Backend Developer</text>
-    <text x="56" y="235" fill="#8DA5BB" font-size="17">REST APIs <tspan fill="#496579"> / </tspan> Async Python <tspan fill="#496579"> / </tspan> Data automation</text>
-    <path d="M61 264C57.7 264 55 266.6 55 269.9C55 274.2 61 279 61 279S67 274.2 67 269.9C67 266.6 64.3 264 61 264Z" stroke="#5EEAD4" stroke-width="1.3"/>
-    <circle cx="61" cy="270" r="1.7" stroke="#5EEAD4" stroke-width="1.2"/>
-    <text x="77" y="275" fill="#8DA5BB" font-size="14">Warsaw, Poland</text>
+    <circle cx="60" cy="57" r="4" fill="#5EEAD4"/>
+    <text x="76" y="62" fill="#5EEAD4" font-size="12" font-weight="600" letter-spacing="1.6">BACKEND ENGINEERING / FULL-STACK DEVELOPMENT</text>
+    <text x="53" y="143" fill="#F1F5F9" font-size="64" font-weight="700" letter-spacing="0.8">ARTEM SEREDA</text>
+    <text x="56" y="188" fill="#C5D5E5" font-size="30">Python Backend Developer</text>
+    <text x="56" y="236" fill="#B0C3D7" font-size="20">I turn business rules into working software.</text>
+    <g font-size="15" font-weight="500" text-anchor="middle">
+      <rect x="56.5" y="263.5" width="102" height="33" rx="7" fill="#113238" stroke="#2E6C6B"/>
+      <text x="107" y="285" fill="#83EFDE">FastAPI</text>
+      <rect x="170.5" y="263.5" width="127" height="33" rx="7" fill="#132A3D" stroke="#2A506D"/>
+      <text x="234" y="285" fill="#83D4F6">PostgreSQL</text>
+      <rect x="309.5" y="263.5" width="195" height="33" rx="7" fill="#17263B" stroke="#34475F"/>
+      <text x="407" y="285" fill="#D3DEED">React + TypeScript</text>
+    </g>
+    <path d="M61 338C57.7 338 55 340.6 55 343.9C55 348.2 61 353 61 353S67 348.2 67 343.9C67 340.6 64.3 338 61 338Z" stroke="#5EEAD4" stroke-width="1.3"/>
+    <circle cx="61" cy="344" r="1.7" stroke="#5EEAD4" stroke-width="1.2"/>
+    <text x="78" y="350" fill="#93ADC5" font-size="15">Warsaw, Poland</text>
+    <path d="M226 339V353" stroke="#35506A"/>
+    <text x="244" y="350" fill="#93ADC5" font-size="15">APIs · Data integrity · Product workflows</text>
   </g>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <rect x="784.5" y="55.5" width="359" height="221" rx="16" fill="#0B1220" fill-opacity="0.55" stroke="#24364B"/>
-    <text x="811" y="86" fill="#64859F" font-size="10" font-weight="600" letter-spacing="2">REQUEST FLOW</text>
-    <path d="M907 139H996" stroke="#5EEAD4" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#arrow)"/>
-    <path d="M1060 161V207" stroke="#5EEAD4" stroke-width="1.4" stroke-opacity="0.8" marker-end="url(#arrow)"/>
-    <text x="940" y="128" fill="#64859F" font-size="10">HTTP</text>
-    <text x="1074" y="188" fill="#64859F" font-size="10">SQL</text>
-    <rect x="811.5" y="117.5" width="95" height="43" rx="9" fill="#111C2E" stroke="#31465D"/>
-    <text x="859" y="144" fill="#B9CADB" font-size="14" text-anchor="middle">Client</text>
-    <rect x="1004.5" y="117.5" width="111" height="43" rx="9" fill="#122D35" stroke="#5EEAD4" stroke-opacity="0.8"/>
-    <text x="1060" y="144" fill="#5EEAD4" font-size="14" font-weight="600" text-anchor="middle">API</text>
-    <rect x="1004.5" y="215.5" width="111" height="39" rx="9" fill="#111C2E" stroke="#31465D"/>
-    <text x="1060" y="240" fill="#B9CADB" font-size="13" text-anchor="middle">Database</text>
-    <path d="M812 215H852M812 227H867M812 239H840" stroke="#243B50" stroke-width="3" stroke-linecap="round"/>
+    <rect x="712.5" y="35.5" width="439" height="329" rx="16" fill="#0B1422" fill-opacity="0.84" stroke="#2B4058"/>
+    <circle cx="737" cy="60" r="3" fill="#5EEAD4"/>
+    <text x="750" y="64" fill="#A4BDD3" font-size="12" font-weight="600" letter-spacing="1.5">SPLASH / FULL-STACK IN PRACTICE</text>
+    <rect x="736.5" y="84.5" width="391" height="66" rx="10" fill="#142438" stroke="#385470"/>
+    <text x="755" y="111" fill="#B8E6FF" font-size="17" font-weight="600">React + TypeScript</text>
+    <text x="755" y="135" fill="#A0B6CA" font-size="15">Client portal · Owner CRM · PL / UA</text>
+    <path d="M932 152V174" stroke="#5EEAD4" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="736.5" y="180.5" width="391" height="78" rx="10" fill="#103036" stroke="#5EEAD4" stroke-opacity="0.75"/>
+    <text x="755" y="206" fill="#89F2DD" font-size="17" font-weight="600">FastAPI / Domain services</text>
+    <text x="755" y="229" fill="#B0D7D3" font-size="15">Bookings · Memberships · Waiting lists</text>
+    <text x="755" y="249" fill="#8AB9B5" font-size="14">JWT authentication &amp; role-based access</text>
+    <path d="M932 260V281" stroke="#5EEAD4" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="736.5" y="287.5" width="391" height="57" rx="10" fill="#142438" stroke="#385470"/>
+    <text x="755" y="311" fill="#B8E6FF" font-size="17" font-weight="600">PostgreSQL + SQLAlchemy</text>
+    <text x="755" y="333" fill="#A0B6CA" font-size="15">Transactions · Alembic migrations</text>
   </g>
 </svg>
