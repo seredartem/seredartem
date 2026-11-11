@@ -12,7 +12,7 @@
 
 ## About me
 
-I build Python backends and tools that connect APIs, process data, and automate repetitive tasks. My projects range from a Flask weather API with authentication and MySQL storage to asynchronous cryptocurrency price collection and web scraping.
+I build Python backends and tools that connect APIs, process data, and automate repetitive tasks. My featured project is **SPLASH**, a full-stack studio website and booking platform with a React frontend and a FastAPI backend. My other projects cover Flask APIs, asynchronous data collection, and web scraping.
 
 Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akademia Nauk**. I enjoy working through backend problems: designing endpoints, handling API errors, and turning external data into useful results.
 
@@ -21,8 +21,9 @@ Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akad
 | Area | Technologies |
 | :--- | :--- |
 | **Backend** | `Python` · `Flask` · `FastAPI` · `REST APIs` · `JWT authentication` |
+| **Frontend** | `React` · `TypeScript` · `Vite` · `CSS` |
 | **Async & integrations** | `asyncio` · `aiohttp` · `httpx` · `Requests` |
-| **Data** | `SQL` · `MySQL` · `JSON` · `CSV` |
+| **Data** | `SQL` · `PostgreSQL` · `MySQL` · `SQLAlchemy` · `JSON` · `CSV` |
 | **Scraping & automation** | `BeautifulSoup` · `Playwright` |
 | **Development** | `Git` · `GitHub` · `Postman` · `OOP` |
 
@@ -30,8 +31,23 @@ Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akad
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3>01 / SPLASH — Dance &amp; Fitness Platform</h3>
+      <p><strong>Full-stack website · React frontend + FastAPI backend</strong></p>
+      <p>A studio website and booking platform connecting a responsive client interface with an asynchronous Python backend and an owner CRM.</p>
+      <ul>
+        <li>Responsive Polish/Ukrainian website with class directions, schedules, and live availability</li>
+        <li>Client accounts, JWT authentication, class bookings, and waiting lists</li>
+        <li>Membership management, attendance tracking, and booking history</li>
+        <li>Role-based owner CRM for client management and studio analytics</li>
+      </ul>
+      <p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>SQLAlchemy</code> <code>Alembic</code> <code>React</code> <code>TypeScript</code> <code>Vite</code></p>
+      <p><sub>Source code is private.</sub></p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3>01 / Weather API</h3>
+      <h3>02 / Weather API</h3>
       <p>A Flask backend combining user accounts, protected weather endpoints, and persistent data storage.</p>
       <ul>
         <li>JWT authentication and password hashing</li>
@@ -42,7 +58,7 @@ Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akad
       <p><a href="https://github.com/seredartem/Weather_sell"><strong>Explore the backend →</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>02 / Async Crypto Monitor</h3>
+      <h3>03 / Async Crypto Monitor</h3>
       <p>An asynchronous client that collects cryptocurrency prices from the CoinGecko API and produces structured reports.</p>
       <ul>
         <li>Concurrent HTTP requests with aiohttp and asyncio</li>
@@ -55,7 +71,7 @@ Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akad
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>03 / Vinted Data Scraper</h3>
+      <h3>04 / Vinted Data Scraper</h3>
       <p>A web scraping project for extracting product information from marketplace listings.</p>
       <ul>
         <li>HTML parsing with CSS selectors and pagination</li>
@@ -66,7 +82,7 @@ Based in **Warsaw, Poland**, I'm studying **Computer Networks at Społeczna Akad
       <p><a href="https://github.com/seredartem/Web-scrapping-Vinted"><strong>Explore the scraper →</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>04 / Pixabay Image Downloader</h3>
+      <h3>05 / Pixabay Image Downloader</h3>
       <p>A small command-line learning project for searching Pixabay and downloading an image through its API.</p>
       <ul>
         <li>Search queries and image retrieval</li>
